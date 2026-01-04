@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
-
+html,body{
+  width: 100%;
+  height: auto;
+}
 /* ////////////////////////Navbar/////////////////////// */
 svg {
   width: 190px;
@@ -1185,9 +1188,13 @@ footer{
 }
 
 @media screen and (max-width:486px) {
-
+  p{
+    flex-wrap: wrap;
+  }
   html, body {
-  width: 99%;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
   overflow-x: hidden;
 }
   .link {
@@ -1338,8 +1345,22 @@ footer{
 
   .hero-span h4 {
     margin-left: 10px;
+    font-size: 16px;
   }
-
+span h4 {
+  font-size: 23px;
+  font-weight: 500px;
+  padding: 10px;
+  width: 300px;
+  padding-left: 20px;
+  background: rgba(0, 122, 67, 1);
+  color: white;
+  margin-bottom: 20px;
+}
+.hero-content .hero-h1 {
+  font-size: 24px;
+  line-height: 30px;
+}
   .hero-content h1 {
     font-size: 30px;
     line-height: 40px;
@@ -1384,7 +1405,7 @@ footer{
   }
 
   .award-content p {
-    width: 99%;
+    text-align: center;
     font-size: 18px;
     line-height: normal;
     margin-left: -20px;
@@ -1404,40 +1425,47 @@ footer{
   }
 
   .photo .build1 {
-    margin-left: 40px;
-    width: 300px;
-    height: 500px;
+    margin-left: 20px;
+    width: 270px;
+    height: 450px;
   }
 
   .photo .build2 {
-    margin-left: -260px;
-    width: 180px;
-    height: 260px;
+    margin-left: -280px;
+    width: 160px;
+    height: 240px;
+    margin-top: -40px;
   }
 
   .service {
-    font-size: 34px;
+    font-size: 30px;
   }
 
   .years {
     margin-left: 0px;
     width: 148px;
-    margin-left: 40px;
-    font-size: 16px;
+    height: 60px;
+    margin-left: 20px;
+    font-size: 14px;
   }
 
   .about {
-    margin-left: 30px;
+    margin-left: 20px;
     margin-top: 30px;
   }
 
   .about p {
-    width: 390px;
+    width: 310px;
+    font-size: 13px;
   }
 
   .col4 span {
     font-weight: bolder;
     font-size: 11px;
+ 
+  }
+  .col4{
+       margin-left: -10px;
   }
 
   .div {
@@ -1446,41 +1474,44 @@ footer{
   }
 
   .col4 :nth-child(3) {
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   .col4 :nth-child(5) {
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   .col4 :nth-child(7) {
-    margin-left: 10px;
+    margin-left: 6px;
   }
 
   .col4 :nth-child(9) {
-    margin-left: 10px;
+    margin-left: 7px;
   }
 
   .card-layout img {
-    width: 180px;
+    width: 160px;
     height: 80px;
   }
-
+   .card-layout h4{
+    font-size: 15px;
+   }
   .card1 {
     grid-column: 1/2;
     grid-row: 1/2;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
-
+    
   .card2 {
     grid-column: 2/3;
     grid-row: 1/2;
     background: rgba(45, 44, 111, 1);
     margin: 10px;
-    width: 180px;
+    width: 160px;
+    margin-left: -6px;
   }
 
   .card3 {
@@ -1488,8 +1519,8 @@ footer{
     grid-row: 2/3;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .card4 {
@@ -1497,7 +1528,8 @@ footer{
     grid-row: 2/3;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
+    width: 160px;
+    margin-left: -6px;
   }
 
   .card5 {
@@ -1505,8 +1537,8 @@ footer{
     grid-row: 3/4;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .card6 {
@@ -1514,7 +1546,8 @@ footer{
     grid-row: 3/4;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
+    width: 160px;
+    margin-left: -6px;
   }
 
   .card7 {
@@ -1522,8 +1555,8 @@ footer{
     grid-row: 4/5;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .card8 {
@@ -1531,8 +1564,9 @@ footer{
     grid-row: 4/5;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
+    width: 160px;
     margin-right: 120px;
+    margin-left: -6px;
   }
 
   .circles .more {
@@ -1542,6 +1576,7 @@ footer{
     right: 98px;
     top: -2px
   }
+ 
 
   .circles .more2 {
     margin-left: 10px;
@@ -1552,7 +1587,9 @@ footer{
   }
 
   .card-layout p {
-    width: 190px;
+    width: 180px;
+    text-align:left;
+    font-size: 11px;
   }
 
   .view1 {
@@ -1564,7 +1601,7 @@ footer{
     font-size: 11px;
     font-weight: lighter;
     margin-top: 20px;
-    margin-left: 160px;
+    margin-left: 120px;
     margin-bottom: 100px;
   }
 
@@ -1578,8 +1615,11 @@ footer{
   }
 
   .help p {
-    font-size: 17px;
+    font-size: 13px;
     font-weight: lighter;
+  }
+  .help h1{
+    font-size: 30px
   }
 
   .hero6 .department {
@@ -1591,7 +1631,7 @@ footer{
   }
 
   hr {
-    width: 140px;
+    width: 120px;
   }
 
   .cards1 {
@@ -1599,16 +1639,16 @@ footer{
     grid-row: 1/2;
     background: rgba(255, 255, 255, 1);
     margin: px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .cards2 {
     grid-column: 2/3;
     grid-row: 1/2;
     background: rgba(255, 255, 255, 1);
-    margin: px;
-    width: 180px;
+    margin-left:-5px;
+    width: 160px;
   }
 
   .cards3 {
@@ -1616,16 +1656,16 @@ footer{
     grid-row: 2/3;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .cards4 {
     grid-column: 2/3;
     grid-row: 2/3;
     background: rgba(255, 255, 255, 1);
-    margin: 10px;
-    width: 180px;
+    margin-left:-5px;
+    width: 160px;
   }
 
   .cards5 {
@@ -1633,16 +1673,16 @@ footer{
     grid-row: 3/4;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .cards6 {
     grid-column: 2/3;
     grid-row: 3/4;
     background: rgba(255, 255, 255, 1);
-    margin: 10px;
-    width: 180px;
+    margin-left:-5px;
+    width: 160px;
   }
 
   .cards7 {
@@ -1650,16 +1690,16 @@ footer{
     grid-row: 4/5;
     background: rgba(255, 255, 255, 1);
     margin: 10px;
-    width: 180px;
-    margin-left: 20px;
+    width: 160px;
+    margin-left: 5px;
   }
 
   .cards8 {
     grid-column: 2/3;
     grid-row: 4/5;
     background: rgba(255, 255, 255, 1);
-    margin: 10px;
-    width: 180px;
+    margin-left:-5px;
+    width: 160px;
   }
 
   .circl h6 {
@@ -1675,7 +1715,7 @@ footer{
     height: 5px;
     border-radius: 50%;
     background: rgba(166, 234, 203, 1);
-    margin-left: 97px;
+    margin-left: 75px;
   }
 
   .cards h4 {
@@ -1685,8 +1725,10 @@ footer{
   .circl .mores {
     color: rgba(0, 122, 67, 1);
     font-size: 9px;
-    margin-right: 18px;
-    margin-top: 4px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 3px;
+
   }
 
   .hero7 {
@@ -1773,9 +1815,9 @@ footer{
   .chennai {
     background: rgba(255, 255, 255, 1);
     border: 1px solid;
-    width: 350px;
+    width: 320px;
     padding: 25px;
-    margin-left: 30px;
+    margin-left: 5px;
   }
 
   .chennai img {
@@ -1789,7 +1831,7 @@ footer{
   }
 
   .testimonial h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -1858,11 +1900,11 @@ footer{
   }
 
   .preventive img {
-    width: 360px;
-    height: 550px;
+    width: 320px;
+    height: 530px;
     margin-top:-80px;
     transform: scaleX(-1);
-    margin-left: 30px;
+    margin-left: 5px;
   }
   .health{
     width: 400px;
@@ -1894,17 +1936,20 @@ footer{
   .basic {
     border: 1px solid rgba(212, 225, 255, 1);
     background: rgba(248, 250, 255, 1);
-    width: 220px;
+    width: 170px;
     margin: 10px;
     padding: 10px;
+    margin-left: -10px;
   }
 
   .health-box {
     display: flex;
+    gap: 5px;
   }
 
   .health-box1 {
     display: flex;
+    gap: 5px;
   }
 
   .basic h4 {
@@ -1936,7 +1981,7 @@ footer{
   color: white;
 }
 .doct h1{
-    font-size: 25px;
+    font-size: 21px;
   font-weight: bolder;
   font-family: 'Times New Roman', Times, serif;
   line-height: 40px;
@@ -1972,7 +2017,9 @@ footer{
   width: 350px;
   height: 420px;
   background: rgba(255, 255, 255, 1);
+  margin-left: -20px;
 }
+
 
 .blog h1{
  color: rgba(45, 44, 111, 1);
@@ -2148,7 +2195,7 @@ footer{
 
 /* //////////////////////////// tablet responsive ///////////////// */
 
-/* @media screen and (min-width: 579px) and (max-width: 768px)  {
+@media screen and (min-width: 579px) and (max-width: 768px)  {
 
   html, body {
   width: 100%;
@@ -3200,7 +3247,7 @@ footer{
   position: absolute;
   left: 100px;
 }
-}  */
+} 
 
 
  
