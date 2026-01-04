@@ -1184,10 +1184,10 @@ footer{
   display: none;
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width:486px) {
 
   html, body {
-  width: 100%;
+  width: 99%;
   overflow-x: hidden;
 }
   .link {
