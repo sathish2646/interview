@@ -6,28 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interview-task</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
 
-</style>
+      
+</head>
+
 
 <body>
-    <nav class="navbar">
-        <div class="shadow">
-            <button class="but" onclick="menu.hidden^=1">
-                <div class="me">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                </div>
+    <nav class="navbar justify-content-center mx-lg-5 ">
+        <div class="shadow m-2" >
+            <button class="but " onclick="menu.hidden^=1">
+                 <svg  class="me " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+                
             </button>
             <div class="links">
                 <ul id="menu" hidden>
-                    <li nav-heading><a href="">Academics</a></li>
-                    <li nav-heading><a href="">Find My Balance</a></li>
-                    <li nav-heading><a href="">Community Outreach</a> </li>
-                    <li nav-heading><a href="">FAQ</a></li>
-                    <li nav-heading><a href="">Careers</a></li>
+                    <li ><a href="">Find My Balance</a></li>
+                    <li ><a href="">Academics</a></li>
+                    <li ><a href="">Community Outreach</a> </li>
+                    <li ><a href="">FAQ</a></li>
+                    <li ><a href="">Careers</a></li>
                     <button class="button">Request an Appiontment</button>
                 </ul>
 
@@ -200,11 +201,11 @@
             <div class="link">
                 <div class="nav1">
                     <ul>
-                        <li nav-heading><a href="#">Academics</a></li>
-                        <li nav-heading><a href="#">Find My Balance</a></li>
-                        <li nav-heading><a href="#">Community Outreach</a> </li>
-                        <li nav-heading><a href="#">FAQ</a></li>
-                        <li nav-heading><a href="#">Careers</a></li>
+                        <li><a href="#">Academics</a></li>
+                        <li><a href="#">Find My Balance</a></li>
+                        <li><a href="#">Community Outreach</a> </li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
                     </ul>
                     <button class="button">REQUEST AN APPOINTMENT</button>
 
@@ -229,14 +230,13 @@
 
 
             </div>
-            <div class="shadow">
-                <button class="but" onclick="menus.hidden^=1">
-                    <div class="mee">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                </button>
+            <div class="shadow m-2">
+                 <button class="but " onclick="menus.hidden^=1">
+                 <svg  class="me " xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+                
+            </button>
                 <div class="links">
                     <ul id="menus" hidden>
                         <li><a href="#">Home</a></li>
@@ -255,24 +255,24 @@
         </div>
     </nav>
 
-    <section class="hero">
+    <section class="hero  h-md-100  d-flex flex-column  flex-lg-row justify-content-around  ">
         <div class="dot">
             <div class="circle"></div>
             <div class="circle"></div>
             <div class="circle"></div>
         </div>
 
-        <div class="hero-content">
-
-            <span class="hero-span">
-                <h4>Sundaram Medical Foundation</h4>
+        <div class="hero-content col-12 col-lg-4 ">
+            <span class="hero-span  " >
+                <h4 class="text-center col-12 col-lg-6 p-2 fs-5 ">Sundaram Medical Foundation</h4>
             </span>
-            <h1 class="hero-h1">Convenient, Quality Medical <br> Care In The Heart Of Chennai</h1>
-            <p>We’ve Been Providing Some Of The Best Private <br> Medical Care In Chennai For Over 30 Years.</p>
+            <h1 class="hero-h1 fs-2  lh-sm fs-1">Convenient, Quality Medical <br> Care In The Heart Of Chennai</h1>
+            <p class=" fs-6 lh-sm col-lg-11" >We’ve Been Providing Some Of The Best Private  Medical Care In Chennai For Over 30 Years.</p>
             <button class="contact-button">Contact us</button>
         </div>
-        <img class="hero-image" src="./assets/shutterstock_2094284281.png" alt="">
-        <div class="social">
+        <img class="hero-image col-12 col-lg-4 h-md-100  " src="./assets/shutterstock_2094284281.png" alt="">
+
+        <div class="social d-none d-lg-block">
             <div class="line"></div>
             <div class="app"><svg width="50" height="50" viewBox="0 0 24 24" fill="#ffffff">
                     <path
@@ -293,24 +293,24 @@
             <div class="line"></div>
         </div>
     </section>
-    <div class="box">
-        <div class="content">
-            <div class="phone">&#128222;</div>
-            <div class="col">
-                <h5 class="op"> For OP Appointments please contact</h5>
-                <div class="number">044 - 3500 1923 - 24 - 25 / 99410 07667 - 72 - 73</div>
+    <div class="box ">
+        <div class="content mt-5 mt-lg-0    ">
+            <div class="phone h-25 content mt-5 mt-lg-0 ">&#128222;</div>
+            <div class="col  mt-5 mt-lg-0">
+                <h5 class="op w-100"> For OP Appointments please contact</h5>
+                <div class="number fs-6">044 - 3500 1923 - 24 - 25 / 99410 07667 - 72 - 73</div>
             </div>
         </div>
     </div>
-    <section class="hero2">
-        <div class="award">
+    <section class="hero2 mt-0 ">
+        <div class="award d-flex flex-column flex-lg-row">
             <div class="award-content">
                 <span>
                     <h1>Awards</h1>
                 </span>
-                <p>Award Winning Healthcare & Initiatives That Prove You Are At The Forefront Of Everything We Do!</p>
+                <p class=" fs-4 fs-3">Award Winning Healthcare & Initiatives That Prove You Are At The Forefront Of Everything We Do!</p>
             </div>
-            <svg width="1164" height="493" viewBox="0 0 1164 493" fill="none" xmlns="http://www.w3.org/2000/svg"
+            <svg  width="1164" height="493" viewBox="0 0 1164 493" fill="none" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink">
                 <rect x="32" y="27" width="340" height="466" fill="#2D2C6F" />
                 <rect x="412" y="27" width="340" height="466" fill="#2D2C6F" />
@@ -4879,13 +4879,13 @@
             </svg>
         </div>
     </section>
-    <section class="hero3">
+    <section class="hero3 flex-column flex-lg-row">
         <div class="photo">
-            <img class="build1" src="./assets/buildinig 1.png" alt="">
-            <div class="years"><span class="service">30+</span><br>Years of Service</div>
-            <img class="build2" src="./assets/building2.png" alt="">
+            <img class="build1   " src="./assets/buildinig 1.png" alt="">
+            <div class="years  "><span class="service">30+</span><br>Years of Service</div>
+            <img class="build2 " src="./assets/building2.png" alt="">
         </div>
-        <div class="about">
+        <div class="about ">
             <h1>About Us</h1>
             <h4>Welcome To Sundaram Medical Foundation</h4>
             <p>Sundaram Medical Foundation (SMF) is synonymous with Excellence in Healthcare. From providing remarkable
@@ -4895,13 +4895,13 @@
                 not-for-profit Multi Speciality General Hospital. </p>
 
             <div class="col4">
-                <div class="sline"></div>
+                <div class="sline ms-0 ms-lg-3"></div>
                 <div class="div"><span>230+</span> <br>HospitalBeds</div>
-                <div class="sline"></div>
-                <div class="div"><span>1100+</span><br>Qualifiedstaff</div>
-                <div class="sline"></div>
-                <div class="div"><span>2120+</span><br>SuccessfulSurgeries</div>
-                <div class="sline"></div>
+                <div class="sline  ms-1 ms-lg-3"></div>
+                <div class="div "><span>1100+</span><br>Qualifiedstaff</div>
+                <div class="sline  ms-1 ms-lg-3"></div>
+                <div class="div"><span>2120+</span><br>urgeries</div>
+                <div class="sline  ms-1 ms-lg-3 "></div>
                 <div class="div"><span>80+</span><br>Qualitydepartments</div>
             </div>
             <button class="view">VIEW ALL</button>
@@ -4909,102 +4909,118 @@
     </section>
     <section class="hero4">
         <div class="department">
-            <h1>Our Department</h1>
-            <p>Your Health Is Our Priority. You Can Find More Information About Our Departments Below.</p>
+            <h1 >Our Department</h1>
+            <p class="fs-6">Your Health Is Our Priority. You Can Find More Information About Our Departments Below.</p>
         </div>
-        <div class="card-layout">
-            <div class="card1">
+          <div class="card-layout ">
+        <div class="container">
+  <div class="row">
+    <div class="col"><div class="card1 mx-5 mx-lg-0 ">
                 <img src="./assets/general medicine.png" alt="">
-                <h4>General Medicine</h4>
+                <h4 class="fs-6 fw-bold">General Medicine</h4>
                 <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem
                     acth semper. Aliquam suscipit, erat...</p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="card2">
+            </div></div>
+    <div class="col"> <div class="card2 mx-5  mx-lg-0 ">
                 <img src="./assets/general surgery.png" alt="">
-                <h4 class="card-2">General Surgery</h4>
-                <p class="card-2">Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada
+                <h4 class="card-2 fs-6 fw-bold">General Surgery</h4>
+                <p class="card-2 ">Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada
                     molestie sem acth semper. Aliquam suscipit, erat...</p>
                 <div class="circles">
                     <div></div> <span class="more2">ReadMore</span>
                 </div>
 
 
-            </div>
-            <div class="card3">
+            </div></div>
+    <div class="col">
+            <div class="card3 mx-5  mx-lg-0 ">
                 <img src="./assets/family medicine.png" alt="">
-                <h4>Family Medicine <br>& Preventive Health</h4>
+                <h4 class="fs-6 fw-bold" >Family Medicine <br>& Preventive Health</h4>
                 <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem...
                 </p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="card4">
+            </div></div>
+    <div class="col"> <div class="card4 mx-5  mx-lg-0 ">
                 <img src="./assets/obstetrics.png" alt="">
-                <h4>Obstetrics <br>& Gynecology </h4>
+                <h4 class="fs-6 fw-bold">Obstetrics <br>& Gynecology </h4>
                 <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem...
                 </p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
-
-
-            </div>
-            <div class="card5">
+            </div></div>
+  </div>
+    </div>
+  <div class="container ">
+  <div class="row">
+    <div class="col "> <div class="card5 mx-5  mx-lg-0 ">
                 <img src="./assets//anesthestology.png" alt="">
-                <h4>Anesthesiology</h4>
+                <h4 class="fs-6 fw-bold">Anesthesiology</h4>
                 <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem
                     acth semper. Aliquam suscipit, erat...</p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="card6">
+            </div></div>
+    <div class="col"><div class="card6 mx-5  mx-lg-0 ">
                 <img src="./assets//orthopaeuics.png" alt="">
-                <h4>Orthopaedics <br>& Traumatology</h4>
+                <h4 class="fs-6 fw-bold">Orthopaedics <br>& Traumatology</h4>
                 <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem...
                 </p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="card7">
+            </div></div>
+    <div class="col"> <div class="card7 mx-5  mx-lg-0 ">
                 <img src="./assets/plastic surgery.png" alt="">
-                <h4>Plastic & Reconstructive <br>Surgery</h4>
-                <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem
-                    acth semper. Aliquam suscipit, erat...</p>
+                <h4 class="fs-6 fw-bold">Plastic & Reconstructive <br>Surgery</h4>
+                <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem...</p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="card8">
+            </div></div>
+    <div class="col">  <div class="card8 ms-5  mx-lg-0">
                 <img src="./assets/urology.png" alt="">
-                <h4>Urology & Andrology</h4>
-                <p>Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem
+                <h4 class="fs-6 fw-bold">Urology & Andrology</h4>
+                <p class="fw-lighter">Quisque tortor lectus, bibendumu euismod nec, suscipit ac elit. Phast ellus malesuada molestie sem
                     acth semper. Aliquam suscipit, erat...</p>
                 <div class="circles">
                     <div></div> <span class="more">ReadMore</span>
                 </div>
 
-            </div>
-
-        </div>
-        <button class="view1">VIEW ALL</button>
+            </div></div>
+  </div>
+    </div>
+  
+    </div>
+        <div class="container ">
+  <div class="d-flex justify-content-center justify-content-md-center">
+    <button class="btn btn-success px-4">
+      VIEW ALL
+    </button>
+  </div>
+</div>    
+           
+           
+           
+    
     </section>
-    <section class="hero5">
-        <div class="contactus">
+    <section class="hero5 ">
+        <div class="contactus d-flex flex-column flex-lg-row">
             <img class="helpimg" src="./assets//here to help.png" alt="">
             <div class="help">
-                <h1>We’re Here To Help</h1>
-                <p>SMF Is Committed to Offering Top-Notch Medical Services That Are <br>Compassionate & Mindful Of
+                <h1 class="fs-1">We’re Here To Help</h1>
+                <p class="fs-6">SMF Is Committed to Offering Top-Notch Medical Services That Are <br>Compassionate & Mindful Of
                     Patients’ Needs.</p>
                 <button class="conus">Contact Us</button>
             </div>
@@ -5016,7 +5032,9 @@
             <p>Your Health Is Our Priority. You Can Find More Information About Our Departments Below.</p>
         </div>
         <div class="card-layout">
-            <div class="cards1">
+  <div class="container text-center">
+  <div class="row">
+    <div class="col"> <div class="cards1 mx-5 mx-lg-0">
                 <img src="./assets/dr.r manickavasagan.png" alt="">
                 <h4>Dr. R. Manickavasagan</h4>
                 <hr>
@@ -5027,13 +5045,13 @@
                     <div></div>
                     <span class="mores">ReadMore</span>
                 </div>
-            </div>
-            <div class="cards2">
+            </div></div>
+    <div class="col"> <div class="cards2 mx-5 mx-lg-0">
                 <img src="./assets/linda franklin.png" alt="">
                 <h4>Dr. Lynda Franklin</h4>
                 <hr>
                 <span>Anaesthesiology</span>
-                <hr>
+                <hr class="">
                 <div class="circl">
                     <h6>Head of Department</h6>
                     <div></div>
@@ -5041,8 +5059,8 @@
                 </div>
 
 
-            </div>
-            <div class="cards3">
+            </div></div>
+    <div class="col"> <div class="cards3 mx-5 mx-lg-0">
                 <img src="./assets/prabhu.png" alt="">
                 <h4>Dr. M. Prabhu</h4>
                 <hr>
@@ -5054,8 +5072,8 @@
                     <span class="mores">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="cards4">
+            </div></div>
+    <div class="col">   <div class="cards4 mx-5 mx-lg-0">
                 <img src="./assets/vijaya bharathi.png" alt="">
                 <h4>Dr. Vijaya Bharathi</h4>
                 <hr>
@@ -5068,8 +5086,12 @@
                 </div>
 
 
-            </div>
-            <div class="cards5">
+            </div></div>
+  </div>
+  </div>
+   <div class="container text-center">
+  <div class="row">
+    <div class="col"> <div class="cards5 mx-5 mx-lg-0">
                 <img src="./assets/sarveswari.png" alt="">
                 <h4>Dr. K. N. Sarveswari</h4>
                 <hr>
@@ -5081,8 +5103,8 @@
                     <span class="mores">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="cards6">
+            </div></div>
+    <div class="col"><div class="cards6 mx-5 mx-lg-0">
                 <img src="./assets/ramesh.png" alt="">
                 <h4>Dr. D. Ramesh</h4>
                 <hr>
@@ -5094,8 +5116,8 @@
                     <span class="mores">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="cards7">
+            </div></div>
+    <div class="col"><div class="cards7 mx-5 mx-lg-0">
                 <img src="./assets/shriram mahadevan.png" alt="">
                 <h4>Dr. Shriraam Mahadevan</h4>
                 <hr>
@@ -5107,8 +5129,8 @@
                     <span class="mores">ReadMore</span>
                 </div>
 
-            </div>
-            <div class="cards8">
+            </div></div>
+    <div class="col">  <div class="cards8 mx-5 mx-lg-0">
                 <img src="./assets/waseem ahmed.png" alt="">
                 <h4>Dr. M. Waseem Ahmed</h4>
                 <hr>
@@ -5120,18 +5142,25 @@
                     <span class="mores">ReadMore</span>
                 </div>
 
-            </div>
+            </div></div>
+  </div>
+  </div>
 
         </div>
-        <button class="view1">VIEW ALL</button>
+        <div class="container ">
+  <div class="d-flex justify-content-center justify-content-md-center">
+    <button class="btn btn-success px-5">
+      VIEW ALL
+    </button>
+  </div>
+</div>  
     </section>
-    <section class="hero7">
-        <div class="hero-choose">
-            <h1>why Choose Us</h1>
-            <h4>Taking Care Of Your Health</h4>
-            <p class="child3">Choosing our hospital means prioritizing your health with the highest standard of care.
-                Our state-of-the-art
-                facilities and advanced medical technology ensure accurate diagnoses and effective treatments. </p>
+    <section class="hero7 ">
+        <div class="hero-choose ">
+            <h1 >why Choose Us</h1>
+            <h4 class="care">Taking Care Of Your Health</h4>
+            <p class="child3 text-start">Choosing our hospital means prioritizing your health with the highest standard of care.
+                Our state-of-the-artfacilities and advanced medical technology ensure accurate diagnoses and effective treatments. </p>
             <div class="choose">
                 <div class="advance">
                     <svg class="chooseimg" width="46" height="60" viewBox="0 0 46 60" fill="none"
@@ -5151,7 +5180,7 @@
                     </svg>
                     <div class="cont">
                         <h4 class="h41">Advanced Technology</h4>
-                        <p class="p1">Cutting-edge equipment for accurate diagnosis & treatment.</p>
+                        <p class="p1  text-start">Cutting-edge equipment for accurate diagnosis & treatment.</p>
                     </div>
                 </div>
                 <div class="advance">
@@ -5178,7 +5207,7 @@
                     </svg>
                     <div class="cont">
                         <h4   class="h42" >Expert Care</h4>
-                        <p class="p2">A skilled team of doctors and specialists dedicated to your health.</p>
+                        <p class="p2  text-start ">A skilled team of doctors and specialists dedicated to your health.</p>
                     </div>
                 </div>
                 <div class="advance">
@@ -5202,8 +5231,8 @@
                             fill="#007A43" stroke="white" stroke-width="0.4" mask="url(#path-3-inside-2_0_909)" />
                     </svg>
                     <div class="cont">
-                        <h4  class="h43">Personalized Attention</h4>
-                        <p class="p3">Tailored care to ensure your comfort and recovery.</p>
+                        <h4  class="h43 ">Personalized Attention</h4>
+                        <p class="p3  text-start">Tailored care to ensure your comfort and recovery.</p>
                     </div>
                 </div>
                 <div class="advance">
@@ -5215,7 +5244,7 @@
                     </svg>
                     <div class="cont">
                         <h4  class="h44">Healing Environment </h4>
-                        <p class="p4">A clean, modern, and welcoming space for a positive experience.</p>
+                        <p class="p4  text-start">A clean, modern, and welcoming space for a positive experience.</p>
                     </div>
                 </div>
             </div>
@@ -5225,9 +5254,9 @@
         </div>
     </section>
     <section class="hero8">
-        <div>
-            <div class="testimonial">
-                <h1>Testimonials</h1>
+        <div class="text-start">
+            <div class="testimonial text-start">
+                <h1 class=" text-start">Testimonials</h1>
                 <span>Our patients Reviews</span>
                 <div class="butt">
                 <button class="written">WRITTEN</button>
@@ -5236,37 +5265,47 @@
             </div>
         </div>
         <div class="flex-chennai">
-        <div class="chennai">
+            <div class="grid text-start  d-flex flex-column flex-lg-row ">
+  <div class="g-col-4 mx-3 "> <div class="chennai ">
            <img src="./assets/comma4.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetuer adipis cing it elit. te Aenean commodo ligula eget dolor. Aenean
                 massa. Cum so ciis natoque penatibus et magnis dis parturient montes. sag ittis magna vik ae purus
                 viverra condimentuk Maecenas egetma ssa quis lacus volutpat.</p>
             <h6><span>Rajesh Kumar </span>- Chennai</h6>
-        </div>
-                <div class="chennai">
+        </div></div>
+  <div class="g-col-4  mx-3"><div class="chennai">
          <img src="./assets/comma4.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetuer adipis cing it elit. te Aenean commodo ligula eget dolor. Aenean
                 massa. Cum so ciis natoque penatibus et magnis dis parturient montes. sag ittis magna vik ae purus
                 viverra condimentuk Maecenas egetma ssa quis lacus volutpat.</p>
             <h6><span>Rajesh Kumar </span>- Chennai</h6>
-        </div>
-                <div class="chennai">
+        </div></div>
+  <div class="g-col-4  mx-3"> <div class="chennai">
     <img src="./assets/comma4.png" alt="">
             <p>Lorem ipsum dolor sit amet, consectetuer adipis cing it elit. te Aenean commodo ligula eget dolor. Aenean
                 massa. Cum so ciis natoque penatibus et magnis dis parturient montes. sag ittis magna vik ae purus
                 viverra condimentuk Maecenas egetma ssa quis lacus volutpat.</p>
             <h6><span>Rajesh Kumar </span>- Chennai</h6>
+        </div></div>
+</div>
+       
+          
         </div>
-        </div>
-        <button class="view1">VIEW ALL</button>
+           <div class="container ">
+  <div class="d-flex justify-content-center justify-content-md-center">
+    <button class="btn btn-success px-5">
+      VIEW ALL
+    </button>
+  </div>
+</div>      
     </section>
-    <section class="hero9">
-        <div class="preventive">
+    <section class="hero9 d-flex flex-column flex-lg-row">
+        <div class="preventive ms-1">
             <img src="./assets//preventive health program.png" alt="">
         </div>
-        <div class="health">
-            <h1>Preventive Health Programs</h1>
-            <p class="bui">Building a Stronger and Healthier Community</p>
+        <div class="health me-0">
+            <h1 class="w-100 fs-1 ms-2">Preventive Health Programs</h1>
+            <p class="bui fs-6 ms-2">Building a Stronger and Healthier Community</p>
         
         <div class="health-box">
             <div class="basic">
@@ -5280,7 +5319,7 @@
             </div>
             <div class="basic">
                 <div class="ad">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="40" height="40" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M31.2213 23.572L24.4295 25.5604C24.5235 26.653 23.9766 27.6882 23.0241 28.2381C22.4054 28.5952 21.6536 28.7211 20.914 28.5319L14.365 26.7774C14.0853 26.7026 13.9191 26.4152 13.9939 26.1355C14.0686 25.8557 14.356 25.6895 14.6358 25.7643L21.1538 27.5107C22.0992 27.7641 23.0773 27.2002 23.3308 26.2547C23.554 25.2878 23.0481 24.3382 22.0744 24.0774L17.17 22.7633C17.1112 22.7476 17.0543 22.7207 17.0018 22.6834C15.4343 21.5719 14.273 21.169 13.2097 21.1964C12.1393 21.224 11.1004 21.6916 9.82695 22.3143C8.64632 22.8916 7.49742 23.4408 6.36073 23.9793L9.39883 31.2741L10.5675 30.7059C11.4248 30.2891 12.304 30.2154 13.2192 30.481L18.6283 32.0515C20.0564 32.4661 21.9193 31.7413 23.3972 31.1662L33.8789 27.1263C34.9025 26.7319 35.7417 25.3759 35.4054 24.286C34.9174 22.7031 32.3368 23.2455 31.2213 23.572ZM8.54124 34.8355L5.94071 35.9153C5.37646 36.1496 4.72528 35.881 4.49044 35.317C3.02255 31.7925 1.55465 28.2679 0.0867547 24.7433C-0.150632 24.1733 0.115481 23.5284 0.685734 23.2916L3.28626 22.2118C3.85051 21.9775 4.50169 22.2462 4.73653 22.8102C6.20435 26.3347 7.67232 29.8593 9.14014 33.3839C9.37753 33.9538 9.11149 34.5987 8.54124 34.8355ZM27.7215 2.6163C27.7215 4.06147 28.893 5.23297 30.3383 5.23297C31.7836 5.23297 32.9552 4.06147 32.9552 2.6163C32.9552 1.1715 31.7836 0 30.3383 0C28.893 0 27.7215 1.1715 27.7215 2.6163ZM20.6328 4.57582C20.6328 6.02107 21.8044 7.1925 23.2496 7.1925C24.6949 7.1925 25.8664 6.02107 25.8664 4.57582C25.8664 3.13102 24.6949 1.95952 23.2496 1.95952C21.8044 1.95952 20.6328 3.13102 20.6328 4.57582ZM28.9113 14.3618C28.9113 17.4885 17.5877 17.4885 17.5877 14.3618C17.5877 11.2352 20.1229 8.70045 23.2497 8.70045C26.3765 8.70045 28.9113 11.2352 28.9113 14.3618ZM13.5441 2.6163C13.5441 4.06147 14.7157 5.23297 16.1609 5.23297C17.6063 5.23297 18.7778 4.06147 18.7778 2.6163C18.7778 1.1715 17.6063 0 16.1609 0C14.7157 0 13.5441 1.1715 13.5441 2.6163ZM36 12.4023C36 9.27562 33.4652 6.74092 30.3384 6.74092C28.7745 6.74092 27.3588 7.37497 26.3341 8.39985C28.4888 9.51689 29.9614 11.7676 29.9614 14.3618C29.9614 14.4931 29.951 14.6196 29.9314 14.7414C32.8912 14.8199 36 14.0407 36 12.4023ZM16.5676 14.7414C16.548 14.6197 16.5376 14.4932 16.5376 14.3618C16.5376 11.7676 18.0104 9.51697 20.1652 8.39992C19.1405 7.37497 17.7248 6.74092 16.161 6.74092C13.0342 6.74092 10.499 9.27569 10.499 12.4023C10.4989 14.0407 13.6077 14.8199 16.5676 14.7414Z" fill="white"/>
 </svg>
              <h4>Master & Executive Health Checkup</h4>
@@ -5291,7 +5330,7 @@
         <div class="health-box1">
             <div class="basic">
                 <div class="ad">
-                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="40" height="40" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" clip-rule="evenodd" d="M35.9332 14.5256C35.7594 14.1612 34.5385 14.4052 34.4534 14.9855C33.9463 18.4381 31.9744 23.9906 26.295 26.0316C25.9741 26.147 25.6203 25.9819 25.5024 25.6616C25.3851 25.3413 25.5477 24.9863 25.8667 24.8665C26.8381 24.5015 29.0621 22.5331 29.9404 21.0353C30.062 20.8273 30.1564 20.6312 30.2085 20.4511C30.2408 20.3394 30.2904 20.2444 30.2364 20.1749C30.2265 20.1625 30.2147 20.1526 30.2004 20.1439C30.1725 20.1352 30.1452 20.1246 30.1185 20.1122C30.0961 20.106 30.0726 20.1004 30.0471 20.0948C29.9193 20.0644 29.7653 20.0514 29.5828 20.0526C29.1924 20.0557 28.6841 20.332 27.9336 20.7205C26.9002 21.2556 25.4962 22.026 23.5366 22.8503C22.3014 23.3711 21.2717 24.283 20.6057 25.4468C20.602 25.445 20.602 25.445 20.602 25.445C19.8137 26.823 19.6604 27.4922 19.3959 28.5803C19.147 29.6058 19.0974 31.5344 19.0993 32.8963H18.7616C18.419 32.8963 18.1409 33.1744 18.1409 33.517V35.3793C18.1409 35.7219 18.419 36 18.7616 36H24.9686C25.3112 36 25.5893 35.7219 25.5893 35.3793V33.517C25.5893 33.1744 25.3112 32.8963 24.9686 32.8963H24.891C24.9158 32.5624 24.9636 32.2116 25.0511 31.8913C25.1386 31.5717 25.2485 31.2768 25.467 31.1278C25.6278 31.018 26.1069 30.697 26.3664 30.5462C28.9435 29.0459 32.0532 27.1911 33.4181 23.9968C34.7011 20.9924 35.6315 17.101 35.6948 16.8316V16.8329L35.6961 16.8285L35.6948 16.8316C35.8612 16.2556 36.1244 14.9253 35.9332 14.5256ZM0.066808 14.5256C0.240603 14.1612 1.46152 14.4052 1.54655 14.9855C2.05366 18.4381 4.02561 23.9906 9.70499 26.0316C10.0259 26.147 10.3797 25.9819 10.4976 25.6616C10.6149 25.3413 10.4523 24.9863 10.1333 24.8665C9.16188 24.5015 6.93793 22.5331 6.05964 21.0353C5.93799 20.8273 5.84364 20.6312 5.7915 20.4511C5.75922 20.3394 5.70958 20.2444 5.76358 20.1749C5.77351 20.1625 5.78529 20.1526 5.79957 20.1439C5.8275 20.1352 5.85482 20.1246 5.88151 20.1122C5.90385 20.106 5.92744 20.1004 5.95288 20.0948C6.08075 20.0644 6.23467 20.0514 6.41716 20.0526C6.80758 20.0557 7.31594 20.332 8.06636 20.7205C9.09982 21.2556 10.5038 22.026 12.4634 22.8503C13.6986 23.3711 14.7283 24.283 15.3943 25.4468C15.398 25.445 15.398 25.445 15.398 25.445C16.1863 26.823 16.3396 27.4922 16.6041 28.5803C16.853 29.6058 16.9026 31.5344 16.9007 32.8963H17.2384C17.581 32.8963 17.8591 33.1744 17.8591 33.517V35.3793C17.8591 35.7219 17.581 36 17.2384 36H11.0314C10.6888 36 10.4107 35.7219 10.4107 35.3793V33.517C10.4107 33.1744 10.6888 32.8963 11.0314 32.8963H11.109C11.0842 32.5624 11.0364 32.2116 10.9489 31.8913C10.8614 31.5717 10.7515 31.2768 10.533 31.1278C10.3722 31.018 9.89307 30.697 9.63362 30.5462C7.05648 29.0459 3.94679 27.1911 2.58188 23.9968C1.29889 20.9924 0.368469 17.101 0.305158 16.8316V16.8329L0.303907 16.8285L0.305158 16.8316C0.138811 16.2556 -0.124367 14.9253 0.066808 14.5256ZM24.3479 34.7585H19.3823V34.1378H24.3479V34.7585ZM11.6521 34.7585H16.6177V34.1378H11.6521V34.7585ZM8.09119 12.4542L7.36374 11.2127H9.81362C9.99797 11.2127 10.1724 11.2946 10.2903 11.4362L10.5045 11.6925L11.6515 9.62734C11.7632 9.42622 11.9774 9.30331 12.2077 9.30828C12.4379 9.31325 12.6465 9.44546 12.7495 9.65155L13.9835 12.1202L16.0485 5.92402C16.1305 5.6782 16.3564 5.50874 16.6152 5.50005C16.8741 5.49074 17.1118 5.64283 17.2111 5.88243L19.4226 11.2127H21.9104C22.253 11.2127 22.5311 11.4908 22.5311 11.8334C22.5311 12.1761 22.253 12.4542 21.9104 12.4542H19.008C18.7572 12.4542 18.5307 12.3033 18.4345 12.0712L16.7009 7.893L14.6873 13.934C14.6079 14.1724 14.3931 14.3394 14.1424 14.3574C13.8922 14.3747 13.6557 14.24 13.5434 14.0153L12.1654 11.2593L11.15 13.0873C11.0507 13.2661 10.8694 13.3847 10.6652 13.4039C10.4616 13.4231 10.2618 13.3406 10.1302 13.1829L9.52313 12.4542H8.09119C8.19237 12.605 8.29727 12.7546 8.40713 12.9036C10.628 15.9173 14.2299 18.5784 17.9615 21.3307C18.1806 21.4921 18.4792 21.4921 18.6983 21.3307C22.4305 18.5784 26.0318 15.9173 28.2527 12.9036C31.1873 8.92218 31.0402 4.19899 28.1602 1.69741C25.418 -0.684356 20.9949 -0.599936 18.3302 2.20642C15.6649 -0.599936 11.2418 -0.684356 8.4996 1.69741C6.02426 3.84765 5.56804 7.64035 7.35317 11.1916L7.36374 11.2127H5.91627C5.57364 11.2127 5.29557 11.4908 5.29557 11.8334C5.29557 12.1761 5.57364 12.4542 5.91627 12.4542H8.09119ZM25.4813 20.5902C26.1318 20.2662 26.6885 19.9707 27.1689 19.7199C27.5352 18.9024 27.879 17.8962 28.1484 17.0278C28.1037 17.0272 28.0565 17.0278 28.0088 17.0309C27.6835 17.0507 27.4172 17.0998 27.1559 17.2711C26.8412 17.4784 26.4961 17.9167 26.1082 19.0154C25.9102 19.5759 25.6842 20.1259 25.4813 20.5902ZM10.5187 20.5902C9.86824 20.2662 9.31147 19.9707 8.83105 19.7199C8.46484 18.9024 8.12097 17.8962 7.85159 17.0278C7.89628 17.0272 7.94346 17.0278 7.99125 17.0309C8.3165 17.0507 8.58277 17.0998 8.84409 17.2711C9.15878 17.4784 9.5039 17.9167 9.89184 19.0154C10.0898 19.5759 10.3158 20.1259 10.5187 20.5902ZM33.1903 15.034C33.0203 14.9247 32.1736 15.3003 32.1066 15.6317C31.8434 16.9359 31.4604 17.885 30.8652 19.1581C31.1302 19.3208 31.4393 19.7758 31.4735 20.0359C32.4486 18.3158 32.9551 16.4902 33.1903 15.034ZM2.80967 15.034C2.97975 14.9247 3.82638 15.3003 3.89341 15.6317C4.15659 16.9359 4.53956 17.885 5.13481 19.1581C4.86977 19.3208 4.56066 19.7758 4.52652 20.0359C3.5514 18.3158 3.04492 16.4902 2.80967 15.034ZM29.9354 16.1513C29.7647 16.2252 29.6362 16.3723 29.5853 16.5517C29.3923 17.2103 29.1539 18.0085 28.8076 18.9608C29.0999 18.8633 29.3526 18.813 29.5729 18.8112C29.7448 18.8099 29.8299 18.8149 29.9341 18.831C30.3153 18.0203 30.5592 16.9502 30.7467 16.0992C30.7634 16.0228 30.5977 15.9731 30.3376 16.024C30.2184 16.047 30.0924 16.0762 29.9354 16.1513ZM6.0646 16.1513C6.2353 16.2252 6.36378 16.3723 6.41468 16.5517C6.60771 17.2103 6.84607 18.0085 7.19242 18.9608C6.90007 18.8633 6.64745 18.813 6.4271 18.8112C6.25517 18.8099 6.17013 18.8149 6.06586 18.831C5.68475 18.0203 5.4408 16.9502 5.25335 16.0992C5.23659 16.0228 5.40231 15.9731 5.66239 16.024C5.78156 16.047 5.90757 16.0762 6.0646 16.1513Z" fill="white"/>
 </svg>
              <h4>Advanced Health Checkup</h4>
@@ -5300,7 +5339,7 @@
             </div>
             <div class="basic">
                 <div class="ad">
-                <svg width="28" height="39" viewBox="0 0 28 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="40" height="40" viewBox="0 0 28 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M12.8518 8.69922H12.2837C12.2353 8.69922 12.1931 8.71149 12.1507 8.74223C12.1084 8.76684 12.0661 8.79758 12.0299 8.82216L10.4585 10.0887C10.4102 10.1195 10.3861 10.1626 10.38 10.2179C10.374 10.2732 10.3861 10.3224 10.4223 10.3654L10.7607 10.802C10.797 10.845 10.8454 10.8696 10.8936 10.8819C10.9481 10.8881 10.9904 10.8758 11.0387 10.8389L12.0661 10.0211V13.6672C12.0661 13.7164 12.0842 13.7656 12.1265 13.8025C12.1628 13.8455 12.2111 13.8639 12.2595 13.8639H12.8518C12.9001 13.8639 12.9485 13.8455 12.9847 13.8025C13.027 13.7656 13.0451 13.7164 13.0451 13.6672V8.89594C13.0451 8.84678 13.027 8.79758 12.9847 8.76069C12.9485 8.71764 12.9001 8.69922 12.8518 8.69922Z" fill="white"/>
 <path d="M13.2895 4.95508H11.6094C11.3555 4.95508 11.1561 5.15799 11.1561 5.41621C11.1561 5.66829 11.3555 5.87735 11.6094 5.87735H13.2895C13.5373 5.87735 13.7427 5.66829 13.7427 5.41621C13.7427 5.15799 13.5373 4.95508 13.2895 4.95508Z" fill="white"/>
 <path d="M15.5532 5.87735H17.2333C17.4872 5.87735 17.6866 5.66829 17.6866 5.41621C17.6866 5.15799 17.4872 4.95508 17.2333 4.95508H15.5532C15.3054 4.95508 15.1 5.15799 15.1 5.41621C15.1 5.66829 15.3054 5.87735 15.5532 5.87735Z" fill="white"/>
@@ -5324,10 +5363,10 @@
     </section>
     <div class="extra"></div>
     <section class="hero10">
-        <div class="appoint">
-            <div class="doct">
-                <h1>Need A Doctor For Check-Up?</h1>
-                <p>JUST MAKE AN APPOINTMENT & YOU'RE DONE!</p>
+        <div class="appoint ms-0">
+            <div class="doct ms-0">
+                <h1 class="fs-3">Need A Doctor For Check-Up?</h1>
+                <p >JUST MAKE AN APPOINTMENT & YOU'RE DONE!</p>
             </div>
             <button class="book"> BOOK APPOINTMENT</button>
         </div>
@@ -5339,40 +5378,52 @@
             <p>Health And Personal Wellness</p>
         </div>
         <div class="blog-box">
-            <div class="blog1">
+        <div class="grid text-start d-flex flex-column flex-lg-row">
+  <div class="g-col-4  mx-3 "> <div class="blog1">
                 <img src="./assets/hypertension.png" alt=""> <br>
                 <div class="our">
                 <span>December 23, 2021</span><br> <br>
-                <h4>Hypertension And Lifestyle: From Smoking to Exercise, How Your...</h4>
+                <h4 class="fw-bolder">Hypertension And Lifestyle: From Smoking to Exercise, How Your...</h4>
                 <p>Aenean commodo ligula eget dolor. Aenean massa. Cum so ciis natoque penatibus mag nis dis parturient montes. sag is...</p>
                 <button class="read">READ MORE</button>
                 </div>
-            </div>
-            <div class="blog1">
+            </div></div>
+  <div class="g-col-4 mt-4 ms-lg-5  mx-3 "><div class="blog1">
                 <img src="./assets/7lifestyle.png" alt=""> <br>
                  <div class="our">
                 <span>December 23, 2021</span> <br> <br>
-                <h4>7 Lifestyle Habits for a Constipation - Free Existence</h4>
+                <h4 class="fw-bolder">7 Lifestyle Habits for a Constipation - Free Existence</h4>
                 <p>Aenean commodo ligula eget dolor. Aenean massa. Cum so ciis natoque penatibus mag nis dis parturient montes. sag is...</p>
                 <button class="read">READ MORE</button>
                 </div>
-            </div>
+            </div></div>
+  <div class="g-col-4  mt-4 ms-lg-5  mx-3 ">
             <div class="blog1">
                 <img src="./assets/osteoporosis.png" alt=""> <br>
                  <div class="our">
                 <span>December 23, 2021</span><br> <br>
-                <h4>Osteoporosis and Bone Health: Strategies for Stronger Bones</h4>
+                <h4 class="fw-bolder">Osteoporosis and Bone Health: Strategies for Stronger Bones</h4>
                 <p>Aenean commodo ligula eget dolor. Aenean massa. Cum so ciis natoque penatibus mag nis dis parturient montes. sag is...</p>
                 <button class="read">READ MORE</button>
                 </div>
-            </div>
+            </div></div>
+</div>
+        
+           
+            
         </div>
-         <button class="view1">VIEW ALL</button>
+       <div class="container ">
+  <div class="d-flex justify-content-center justify-content-md-center">
+    <button class="btn btn-success px-5">
+      VIEW ALL
+    </button>
+  </div>
+</div>    
     </section>
     <section class="hero12">
         <div class="cover">
             <h1>Cover For Your Health</h1>
-            <p>SMF Insurance Department Staff Will Assist You And Guide You In The Process Of <br> Obtaining The Cashless Facility From The TPA/Insurance Company. </p>
+            <p class="fs-6">SMF Insurance Department Staff Will Assist You And Guide You In The Process Of <br> Obtaining The Cashless Facility From The TPA/Insurance Company. </p>
         </div>
         <div class="insurnace">
             <div class="insurance1">
@@ -5429,9 +5480,9 @@
         <div class="lin2"></div>
         <div class="nav-footer">
             <div class="quick">
-                <div class="home">
+                <div class="home ">
             <h4>Quick links</h4>
-            <ul>
+            <ul class="ms-0">
                 <li><a href="#">>Home</a></li>
                         <li><a href="#">>About us</a></li>
                         <li><a href="#">>Our Doctors</a></li>
@@ -5459,14 +5510,14 @@
             </div>
             </div>
             <div class="patient">
-                  <h4>Patient Care</h4>
+                  <h4>PatientCare</h4>
                    <ul>
                     <li><a href="#">> Facilities</a></li>
                         <li><a href="#">> Billing & Insurance</a></li>
                         <li><a href="#">> Inpatient Services</a></li>
                         <li><a href="#">> Outpatient Services</a></li>
-                        <li><a href="#">> Community Outreach & Home Care</a></li>
-                        <li><a href="#">> Patient Safety, Rights & Responsibility</a></li>
+                        <li><a href="#">>CommunityOutreach&HomeCare</a></li>
+                        <li><a href="#">>PatientSafety,Rights&Responsibility</a></li>
                         <li><a href="#">> Preventive Health Program</a></li>
             </ul>
             </div>
@@ -5481,13 +5532,13 @@
                         <li><a href="#">> Obstetrics & Gynecology</a></li>
                         <li><a href="#">> Endocrinology</a></li>
                         <li><a href="#">> Orthopaedics &  Trauma</a></li>
-                        <li><a href="#">> Family Medicine & Preventive Health</a></li>
+                        <li><a href="#">> Family Medicine&Preventive Health</a></li>
                           <li><a href="#">> Plastic & Reconstructive Surgery
 </a></li>
             </ul>
 
             </div>
-            <div class="last"> <br>
+            <div class="last"> <br> <br>
                      <ul>
                     <li><a href="#">> Anaesthesiology</a></li>
                         <li><a href="#">> Laboratory Services</a></li>
@@ -5496,13 +5547,13 @@
                         <li><a href="#">> Radiodiagnosis & Imaging Sciences</a> </li>
                         <li><a href="#">> Infectious Disease</a></li>
             </ul>
-            <button class="last-button">View All Departments</button>
+            <button class="last-button w-100 p-2">ViewAllDepartments</button>
 
             </div>
         </div>
-        <div class="copy">
-            <h5>Copyright © 2025 .SMFhospital . All Rights Reserved.</h5>
-            <h5>Powered By: Cortex Media Marketing Pvt Ltd</h5>
+        <div class="copy d-flex flex-column flex-lg-row"">
+            <h6 class="mt-5 mt-lg-0" >Copyright © 2025 .SMFhospital. All Rights Reserved.</h6>
+            <h6 >Powered By: Cortex Media Marketing Pvt Ltd</h6>
         </div>
     </footer>
 </body>
@@ -5518,5 +5569,6 @@
         mee.classList.toggle("active");
     });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </html>
